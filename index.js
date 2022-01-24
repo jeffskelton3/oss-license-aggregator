@@ -5,7 +5,6 @@ const _ = require('lodash')
 const config = require('./config')
 
 
-// put the paths to the repos you want to aggregate data from here.
 // must be absolute path to the root of the package.json location
 const paths = config.repositories 
 
