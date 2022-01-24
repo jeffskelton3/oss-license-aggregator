@@ -1,6 +1,8 @@
 # OSS License Aggregator
 
-Aggregates licensing information for npm based dependencies for one or more repositories.
+Aggregates licensing information for npm based dependencies for one or more repositories. 
+
+NOTE: I hacked this together for a specific need I had. You'll probably want to edit the script a bit to suit your needs. Maybe in the future I'll come back to this and make it nice. 
 
 ## Usage
 
