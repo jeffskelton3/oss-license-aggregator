@@ -22,10 +22,11 @@ const packages = paths.map((p) => {
     const data = fs.readFileSync(`${p}/node_modules/${pn}/package.json`) 
     const {name = '', license = '', version = '', description = '', repository = {} } = JSON.parse(data)
     return {
-      name,
-      license,
-      version,
-      description,
+      OSS: name,
+      Version: version,
+      License: license,
+      Notes: description,
+      URL: repository.url ?? '' 
     }
   })
 
